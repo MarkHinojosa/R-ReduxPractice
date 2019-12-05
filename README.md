@@ -1,4 +1,4 @@
-This is a simple implementation example of React-Redux
+This is a simple implementation example of React-Redux with React-Hooks
 
 ### Download Packages
 
@@ -8,7 +8,9 @@ This is a simple implementation example of React-Redux
 
 `npm start`
 
-#### Notes:
+### Notes:
+
+- All class components should be changed into classless components
 
 1. Create directories:
    `src/redux/actions`
@@ -77,4 +79,4 @@ export const decrement = () => {
 
   `<button onClick={() => dispatch(increment())}>+</button>`
 
-**\* NEED TO ADD INDEX.JS SECTION\*\***
+**\* _NEED TO ADD INDEX.JS SECTION_ \***
