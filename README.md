@@ -122,3 +122,13 @@ export const decrement = (num) => {
    ```
    import {Provider} from "react-redux"
    ```
+
+### wrap the App element
+
+````ReactDOM.render(
+<Provider store={store}>
+  <App />
+</Provider>,
+document.getElementById("root")
+); ```
+````
